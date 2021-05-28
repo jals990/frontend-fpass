@@ -6,7 +6,7 @@
   Frontend Challenge FPass
 </h3>
 
-<p align="center">WebApp conuminso API Marvel.</p>
+<p align="center">WebApp consumindo API Marvel.</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/juarezsilva/" target="_blank" rel="noopener noreferrer">
