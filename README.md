@@ -40,16 +40,9 @@ Detalhes do desafio, clique aqui: [Desafio](https://github.com/Holding-Fpass/tes
 
 Tecnologias utilizadas na construção desta API
 
-- [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [Sequelize](https://sequelize.org)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+- [Styled Components](https://github.com/styled-components/styled-components)
+- [React](https://reactjs.org)
+- [Axios](https://github.com/axios/axios)
 
 ## 💻 Let's Go
 
