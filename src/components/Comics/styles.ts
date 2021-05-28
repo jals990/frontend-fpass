@@ -32,7 +32,7 @@ export const Container = styled.div`
     li {
       width: 500px;
       @media (max-width: 788px){
-        width: calc(100vw - 200px);
+        width: calc(100vw - 70px);
       }
       display: flex;
       align-items: center;
