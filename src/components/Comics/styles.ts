@@ -15,12 +15,28 @@ export const Container = styled.div`
 
   .loading{
     display: flex;
+    width: 20vw;
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+    background: var(--white);
+    color: var(--dark);
+    padding: 36px;
+    border: 2px solid #000;
+    border-radius: 17px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .empty-search {
+    display: flex;
     flex-direction: column;
     align-items: center !important;
     justify-content: center;
-    circle {
-      color: #fff !important;
-    }
   }
 
   ul {

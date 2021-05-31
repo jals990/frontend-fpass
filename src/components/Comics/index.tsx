@@ -20,14 +20,12 @@ export function Comics({visibleModal, dataModal, search}: ComicsProps){
 
   if(loading){
     return(
-      <Scroll>
-        <Container>
-          <div className="laoding">
-            <Loader type="MutatingDots" />
-            <strong style={{color: '#FFF'}}>Carregando Dados ...</strong>
-          </div>
-        </Container>
-      </Scroll>
+      <Container>
+        <div className="loading">
+          <Loader type="MutatingDots" />
+          <strong>Carregando Dados ...</strong>
+        </div>
+      </Container>
     )
   }
 
@@ -36,7 +34,9 @@ export function Comics({visibleModal, dataModal, search}: ComicsProps){
 
     if(!newArr || newArr.length === 0 ){
       return(
-        <h1>Nenhum resultado encontrado</h1>
+        <Container>
+          <h1 className="empty-search">Nenhum resultado encontrado</h1>
+        </Container>
       )
     }
     return (
